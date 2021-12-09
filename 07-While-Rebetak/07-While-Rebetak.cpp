@@ -1,7 +1,21 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int cislo;
+   cout << "zadaj cislo:";
+   cin >> cislo;
+   cislo = 100;
+	while (cislo <= 300)
+	{
+		if (cislo % 3 == 0)
+		{
+			cout << cislo << endl;
+		}
+		cislo++;
+	}
+  
 }
+
  
